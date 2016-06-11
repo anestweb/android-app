@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_criar"
+        android:icon="@drawable/ic_action_paciente"
+        android:title="@string/app_action_criar_paciente"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sair"
+        android:title="@string/app_action_sair"
+        app:showAsAction="never" />
+
+</menu>

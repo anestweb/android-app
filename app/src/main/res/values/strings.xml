@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">AnestWeb</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_confirmar_exclusao">Sim, remover!</string>
+    <string name="btn_nao">Não</string>
+    <string name="btn_sim">Sim</string>
+
+    <!-- Ações do Menu -->
+    <string name="app_action_criar_paciente">Novo Paciente</string>
+    <string name="app_action_sair">Desconectar</string>
+
+    <!-- Títulos das Activities -->
+    <string name="title_activity_login">Identifique-se</string>
+    <string name="title_activity_cadprofissional">Novo Profissional</string>
+    <string name="title_activity_listagem_pacientes">Listagem de Pacientes</string>
+    <string name="title_activity_cadastro_paciente">Novo Paciente</string>
+    <string name="title_activity_edicao_paciente">Edição de Paciente</string>
+
+    <!-- Strings da tela de Login -->
+    <string name="login_btn_entrar">Entrar no Aplicativo</string>
+    <string name="login_btn_sair">Sair</string>
+    <string name="login_err_generico">Usuário ou senha inválidos!</string>
+    <string name="login_err_inexistente">Este CRM não está cadastrado.</string>
+    <string name="login_err_crm_vazio">Informe seu CRM e senha para se conectar.</string>
+    <string name="login_prompt_crm">CRM</string>
+    <string name="login_prompt_lembrar">Lembrar meus dados</string>
+    <string name="login_prompt_senha">Senha</string>
+    <string name="login_subtitulo">Por favor, identifique-se</string>
+
+    <!-- Strings da tela splash sem usuário -->
+    <string name="splashcad_subtitulo">Olá! Seja bem-vindo!</string>
+    <string name="splashcad_descricao">O AnestWeb está pronto para te ajudar a organizar os arquivos de seus pacientes.\n\nVamos começar criando uma conta?</string>
+    <string name="splashcad_btn_criar_conta">Criar conta</string>
+    <string name="splashcad_btn_depois">Depois</string>
+    <string name="splashcad_msg_contaok">Conta criada com sucesso. Iniciando&#8230;</string>
+
+    <!-- Strings da tela de cadastro de profissional -->
+    <string name="cadprof_prompt_nome">Nome</string>
+    <string name="cadprof_prompt_crm">CRM</string>
+    <string name="cadprof_prompt_senha">Senha</string>
+    <string name="cadprof_btn_salvar">Cadastrar Profissional</string>
+    <string name="cadprof_subtitulo">Cadastro de Novo Profissional</string>
+    <string name="cadprof_err_nome_vazio">Informe o nome do profissional.</string>
+    <string name="cadprof_err_crm_vazio">Informe o CRM do profissional.</string>
+    <string name="cadprof_err_crm_invalido">Informe CRM no formato 000000/PB.</string>
+    <string name="cadprof_err_senha_curta">A senha informada é muito curta. Tente uma com mais de 4 caracteres.</string>
+    <string name="cadprof_err_crm_duplicado">O crm informado já está cadastrado.</string>
+    <string name="cadprof_err_senha_nohash">Não foi possível criptografar a senha. Tente outra vez.</string>
+    <string name="cadprof_err_alert_title_erro">Erro ao cadastrar o profissional</string>
+    <string name="cadprof_err_alert_msg_erro">Desculpe, mas não foi possível criar uma conta para o profissional no momento.</string>
+
+    <string name="itm_paciente_nome">Nome Completo do Paciente</string>
+    <string name="listpac_sem_paciente">Nenhum paciente cadastrado!</string>
+
+    <string name="cadpac_subtitulo_novo">Cadastro de Paciente</string>
+    <string name="cadpac_subtitulo_editar">Edição de Paciente</string>
+    <string name="cadpac_prompt_nome">Nome do Paciente</string>
+    <string name="cadpac_prompt_cpf">CPF do Paciente</string>
+    <string name="cadpac_prompt_nasc">Data de Nascimento</string>
+    <string name="cadpac_radio_masculino">Masculino</string>
+    <string name="cadpac_radio_feminino">Feminino</string>
+    <string name="cadpac_prompt_genero">Gênero</string>
+    <string name="cadpac_btn_salvar">Salvar</string>
+    <string name="cadpac_err_genero">Informe o gênero do paciente.</string>
+    <string name="cadpac_err_nome_vazio">Informe o nome do paciente.</string>
+    <string name="cadpac_err_data_invalida">Data de nascimento inválida.</string>
+    <string name="cadpac_err_genero_invalido">Escolha um gênero na lista.</string>
+    <string name="cadpac_msg_ok">Paciente cadastrado com sucesso.</string>
+    <string name="cadpac_err_alert_title_erro">Erro ao cadastrar paciente</string>
+    <string name="cadpac_err_alert_msg_erro">Não foi possível completar o cadastro deste paciente. Por favor, tente novamente.</string>
+    <string name="listpac_err_apagar">Não foi possível excluir o paciente.</string>
+    <string name="listpac_msg_titulo_apagar">Remover paciente?</string>
+    <string name="listpac_msg_apagar">Remover o paciente %1$s do sistema?</string>
+    <string name="itm_paciente_placeholder_genero">Gênero</string>
+    <string name="itm_paciente_placeholder_idade">0 anos</string>
+    <string name="itm_paciente_placeholder_nascimento">00/00/0000</string>
+    <string name="splashcad_alt_img" />
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListagemPacientesActivity">
+
+    <ListView
+        android:id="@+id/listpac_listagem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/listpac_empty"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/lightning"
+        android:text="@string/listpac_sem_paciente"
+        android:textColor="@android:color/secondary_text_light"
+        app:layout_anchor="@id/listpac_listagem"
+        app:layout_anchorGravity="center" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jralison.anestweb.CadastroPacienteActivity">
+
+    <TextView
+        android:id="@+id/cadprof_text_subtitulo"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/cadpac_subtitulo_novo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadpac_prompt_nome" />
+
+    <EditText
+        android:id="@+id/cadpac_input_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadpac_prompt_nasc" />
+
+    <EditText
+        android:id="@+id/cadpac_input_nasc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadpac_prompt_genero" />
+
+    <RadioGroup
+        android:id="@+id/cadpac_grupo_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cadpac_radio_masculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/cadpac_radio_masculino" />
+
+        <RadioButton
+            android:id="@+id/cadpac_radio_feminino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/cadpac_radio_feminino" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadpac_prompt_cpf" />
+
+    <EditText
+        android:id="@+id/cadpac_input_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789.-"
+        android:inputType="number" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="onClickSalvarPaciente"
+        android:text="@string/cadpac_btn_salvar" />
+
+</LinearLayout>
